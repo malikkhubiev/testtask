@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section, .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    flex-direction: column;
+}
+button{
+    border: 0;
+    font-size: 30px;
+    color: #fff;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: Century Gothic;
+}
+.buttons{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.active{ opacity: 1 }
+.buttons button{
+    margin: 0 10px;
+}
